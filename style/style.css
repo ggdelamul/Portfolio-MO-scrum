@@ -1,0 +1,45 @@
+/*-----------------------------SVG--------------------------------*/
+svg {
+    width: 50px;
+    height:50px;
+}
+svg path {
+    fill: white;
+}
+/*-----------------------------BACKGROUND-------------------------*/
+body {
+    background-image: url("../img/bcg.jpg");
+    
+}
+/*-----------------------------FONT-SIZE--------------------------*/
+h1 {
+   font-size: 2.5rem; 
+}
+h2{
+    font-size: 1.5rem;
+}
+
+/*----------------------------FORM-------------------------------*/
+.btn{
+    width:100%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.9px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+}
+/*------------------------------GALLERY-----------------------------*/
+.card {
+background: rgba(255, 255, 255, 0.15);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.9px);
+border: 1px solid rgba(255, 255, 255, 0.33);
+}
+
+.card img {
+    border-radius: 16px; 
+}
+h5 {
+    font-size: 1.5rem;
+}
