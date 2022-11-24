@@ -19,12 +19,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="gallery.html">Gallery</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 </ul>
@@ -50,20 +50,22 @@
                </div>
                <div class="row py-2">
                 <form class="col">
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
+                    <div class="input-container">
+                        <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="my-3">
+                        <label for="exampleInputPassword1" class="form-label text-white">Name</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea" class="text-white">Leave a comment here</label>
+                        </div>
+                        <button type="submit" class="btn btn-dark submit">SUBMIT</button>
                     </div>
-                    <div class="my-3">
-                      <label for="exampleInputPassword1" class="form-label text-white">Name</label>
-                      <input type="text" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="form-floating mb-3">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea">Comments</label>
-                      </div>
-                    <button type="submit" class="btn btn-dark submit">SUBMIT</button>
                   </form>
                </div>
            </div>
