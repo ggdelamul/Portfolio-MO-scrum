@@ -28,6 +28,13 @@ h2{
     backdrop-filter: blur(2.9px);
     border: 1px solid rgba(255, 255, 255, 0.33);
 }
+.form-control{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.9px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+}
 /*------------------------------GALLERY-----------------------------*/
 .card {
 background: rgba(255, 255, 255, 0.15);
@@ -50,5 +57,11 @@ h5 {
     }
     h2 {
         font-size:3rem;
+    }
+    .gallery p {
+        font-size: 1.5rem;
+    }
+    .button, .main_container a, .submit {
+        font-size: 1.3rem;
     }
 }
