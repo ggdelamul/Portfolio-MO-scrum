@@ -43,3 +43,12 @@ border: 1px solid rgba(255, 255, 255, 0.33);
 h5 {
     font-size: 1.5rem;
 }
+/*-----------------------MEDIAQUERIES--------*/
+@media screen and (min-width:768px) {
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size:3rem;
+    }
+}
